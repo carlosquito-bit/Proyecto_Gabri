@@ -1,0 +1,89 @@
+﻿<Window x:Class="Proyecto_Gabri.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Proyecto_Gabri"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800"
+        Background="White" WindowStartupLocation="CenterScreen">
+    <Window.Resources>
+        <SolidColorBrush x:Key="PurpleBrush" Color="#6A4BCF"/>
+        <SolidColorBrush x:Key="PurpleDarkBrush" Color="#5839B2"/>
+        <SolidColorBrush x:Key="CardBackground" Color="#FFFFFFFF"/>
+        <Style x:Key="PrimaryButton" TargetType="Button">
+            <Setter Property="Background" Value="{StaticResource PurpleBrush}"/>
+            <Setter Property="Foreground" Value="White"/>
+            <Setter Property="Padding" Value="10,6"/>
+            <Setter Property="FontWeight" Value="SemiBold"/>
+            <Setter Property="BorderThickness" Value="0"/>
+            <Setter Property="Cursor" Value="Hand"/>
+            <Setter Property="Margin" Value="0,10,0,0"/>
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="Button">
+                        <Border Background="{TemplateBinding Background}" CornerRadius="6">
+                            <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center" Margin="12,4"/>
+                        </Border>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+        <Style x:Key="TextBoxFlat" TargetType="TextBox">
+            <Setter Property="Padding" Value="8"/>
+            <Setter Property="BorderBrush" Value="#E0E0E0"/>
+            <Setter Property="BorderThickness" Value="1"/>
+            <Setter Property="Margin" Value="0,6,0,0"/>
+        </Style>
+        <Style x:Key="PasswordBoxFlat" TargetType="PasswordBox">
+            <Setter Property="Padding" Value="8"/>
+            <Setter Property="BorderBrush" Value="#E0E0E0"/>
+            <Setter Property="BorderThickness" Value="1"/>
+            <Setter Property="Margin" Value="0,6,0,0"/>
+        </Style>
+    </Window.Resources>
+
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="67*"/>
+            <ColumnDefinition Width="200*"/>
+        </Grid.ColumnDefinitions>
+
+        <!-- Zona morada lateral -->
+        <Grid Grid.Column="0" Background="{StaticResource PurpleBrush}">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*"/>
+            </Grid.RowDefinitions>
+            <StackPanel VerticalAlignment="Center" HorizontalAlignment="Center" Margin="24" >
+                <Border Width="120" Height="120" Background="{StaticResource PurpleDarkBrush}" CornerRadius="20" >
+                    <TextBlock Text="GONHP" FontSize="30" FontWeight="Bold" Foreground="White" VerticalAlignment="Center" HorizontalAlignment="Center"/>
+                </Border>
+                <TextBlock Text="Gonzalo hijo de puta" FontSize="15" FontWeight="Bold" Foreground="White" Margin="0,18,0,4" HorizontalAlignment="Center"/>
+            </StackPanel>
+        </Grid>
+
+        <!-- Zona blanca con tarjeta de login -->
+        <Grid Grid.Column="1">
+            <Grid VerticalAlignment="Center" HorizontalAlignment="Center">
+                <Border Background="{StaticResource CardBackground}" CornerRadius="12" Padding="28" Width="360" Effect="{DynamicResource {x:Static SystemParameters.DropShadowKey}}">
+                    <StackPanel>
+                        <TextBlock Text="Iniciar sesión" FontSize="20" FontWeight="SemiBold" Margin="0,0,0,12"/>
+                        <TextBlock Text="Usuario" FontSize="12" Foreground="#666" />
+                        <TextBox x:Name="txtUsuario" Style="{StaticResource TextBoxFlat}" />
+                        <TextBlock Text="Contraseña" FontSize="12" Foreground="#666" Margin="0,8,0,0"/>
+                        <PasswordBox x:Name="pwdContrasena" Style="{StaticResource PasswordBoxFlat}" />
+
+                        <Button x:Name="btnIniciarSesion" Style="{StaticResource PrimaryButton}" Click="BtnIniciarSesion_Click">Iniciar sesión</Button>
+
+                        <StackPanel Orientation="Horizontal" HorizontalAlignment="Stretch" Margin="0,8,0,0">
+                            <TextBlock Text="¿No tienes cuenta?" Foreground="#666" VerticalAlignment="Center"/>
+                            <Button Content="Registrarse" Background="Transparent" BorderThickness="0" Foreground="{StaticResource PurpleBrush}" Margin="8,0,0,0" Cursor="Hand"/>
+                        </StackPanel>
+
+                        <TextBlock Text="¿Olvidaste tu contraseña?" Foreground="{StaticResource PurpleBrush}" FontSize="12" HorizontalAlignment="Left" Margin="0,12,0,0" Cursor="Hand"/>
+                    </StackPanel>
+                </Border>
+            </Grid>
+        </Grid>
+    </Grid>
+</Window>
