@@ -11,6 +11,10 @@
         <SolidColorBrush x:Key="PurpleBrush" Color="#6A4BCF"/>
         <SolidColorBrush x:Key="PurpleDarkBrush" Color="#5839B2"/>
         <SolidColorBrush x:Key="CardBackground" Color="#FFFFFFFF"/>
+
+        <!-- Añadido: efecto de sombra reutilizable -->
+        <DropShadowEffect x:Key="CardDropShadow" Color="#000000" BlurRadius="12" ShadowDepth="4" Opacity="0.25"/>
+
         <Style x:Key="PrimaryButton" TargetType="Button">
             <Setter Property="Background" Value="{StaticResource PurpleBrush}"/>
             <Setter Property="Foreground" Value="White"/>
@@ -65,12 +69,13 @@
         <!-- Zona blanca con tarjeta de login -->
         <Grid Grid.Column="1">
             <Grid VerticalAlignment="Center" HorizontalAlignment="Center">
-                <Border Background="{StaticResource CardBackground}" CornerRadius="12" Padding="28" Width="360" Effect="{DynamicResource {x:Static SystemParameters.DropShadowKey}}">
+                <!-- Uso del efecto definido en recursos -->
+                <Border CornerRadius="12" Padding="28" Width="360" Effect="{StaticResource CardDropShadow}">
                     <StackPanel>
-                        <TextBlock Text="Iniciar sesión" FontSize="20" FontWeight="SemiBold" Margin="0,0,0,12"/>
-                        <TextBlock Text="Usuario" FontSize="12" Foreground="#666" />
+                        <TextBlock Text="Iniciar sesión" FontSize="20" FontWeight="Bold" Margin="0,0,0,12"/>
+                        <TextBlock Text="Usuario" FontSize="12" FontWeight="Bold"/>
                         <TextBox x:Name="txtUsuario" Style="{StaticResource TextBoxFlat}" />
-                        <TextBlock Text="Contraseña" FontSize="12" Foreground="#666" Margin="0,8,0,0"/>
+                        <TextBlock Text="Contraseña" FontSize="12" FontWeight="Bold" Margin="0,8,0,0"/>
                         <PasswordBox x:Name="pwdContrasena" Style="{StaticResource PasswordBoxFlat}" />
 
                         <Button x:Name="btnIniciarSesion" Style="{StaticResource PrimaryButton}" Click="BtnIniciarSesion_Click">Iniciar sesión</Button>
