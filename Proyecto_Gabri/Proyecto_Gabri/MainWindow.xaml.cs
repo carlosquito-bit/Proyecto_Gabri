@@ -1,4 +1,6 @@
-﻿using System.Windows;
+﻿using System;
+using System.Windows;
+using System.Windows.Input;
 
 namespace Proyecto_Gabri
 {
@@ -28,16 +30,53 @@ namespace Proyecto_Gabri
                 return;
             }
 
-            // Aquí puedes integrar la lógica real de autenticación (API, base de datos, etc.)
-            // Por ahora simulamos un inicio de sesión correcto si usuario == "admin" y clave == "1234"
             if (usuario == "admin" && clave == "1234")
             {
                 MessageBox.Show("Autenticación correcta. Bienvenido.", "OK", MessageBoxButton.OK, MessageBoxImage.Information);
-                // Navegar a la siguiente ventana o cargar la sesión
             }
             else
             {
                 MessageBox.Show("Usuario o contraseña incorrectos.", "Error", MessageBoxButton.OK, MessageBoxImage.Error);
+            }
+        }
+
+        // Abre RegisterWindow y cierra la MainWindow
+        private void BtnRegistrarse_Click(object sender, RoutedEventArgs e)
+        {
+            try
+            {
+                var registerWindow = new RegisterWindow()
+                {
+                    WindowStartupLocation = WindowStartupLocation.CenterScreen
+                };
+
+                registerWindow.Show();
+                Application.Current.MainWindow = registerWindow;
+                this.Close();
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show($"Error al abrir ventana de registro:\n{ex.Message}", "ERROR", MessageBoxButton.OK, MessageBoxImage.Error);
+            }
+        }
+
+        // Maneja el click en "¿Olvidaste tu contraseña?" — abre ForgotPasswordWindow y cierra esta ventana
+        private void TxtOlvidaste_MouseLeftButtonUp(object sender, MouseButtonEventArgs e)
+        {
+            try
+            {
+                var forgotWindow = new ForgotPasswordWindow()
+                {
+                    WindowStartupLocation = WindowStartupLocation.CenterScreen
+                };
+
+                forgotWindow.Show();
+                Application.Current.MainWindow = forgotWindow;
+                this.Close();
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show($"Error al abrir ventana de recuperación:\n{ex.Message}", "ERROR", MessageBoxButton.OK, MessageBoxImage.Error);
             }
         }
     }

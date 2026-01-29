@@ -11,8 +11,6 @@
         <SolidColorBrush x:Key="PurpleBrush" Color="#6A4BCF"/>
         <SolidColorBrush x:Key="PurpleDarkBrush" Color="#5839B2"/>
         <SolidColorBrush x:Key="CardBackground" Color="#FFFFFFFF"/>
-
-        <!-- Añadido: efecto de sombra reutilizable -->
         <DropShadowEffect x:Key="CardDropShadow" Color="#000000" BlurRadius="12" ShadowDepth="4" Opacity="0.25"/>
 
         <Style x:Key="PrimaryButton" TargetType="Button">
@@ -69,23 +67,23 @@
         <!-- Zona blanca con tarjeta de login -->
         <Grid Grid.Column="1">
             <Grid VerticalAlignment="Center" HorizontalAlignment="Center">
-                <!-- Uso del efecto definido en recursos -->
                 <Border CornerRadius="12" Padding="28" Width="360" Effect="{StaticResource CardDropShadow}">
                     <StackPanel>
                         <TextBlock Text="Iniciar sesión" FontSize="20" FontWeight="Bold" Margin="0,0,0,12"/>
-                        <TextBlock Text="Usuario" FontSize="12" FontWeight="Bold"/>
+                        <TextBlock Text="Usuario" FontSize="12" FontWeight="Bold" Foreground="Black" />
                         <TextBox x:Name="txtUsuario" Style="{StaticResource TextBoxFlat}" />
-                        <TextBlock Text="Contraseña" FontSize="12" FontWeight="Bold" Margin="0,8,0,0"/>
+                        <TextBlock Text="Contraseña" FontSize="12" FontWeight="Bold" Foreground="Black" Margin="0,8,0,0"/>
                         <PasswordBox x:Name="pwdContrasena" Style="{StaticResource PasswordBoxFlat}" />
 
                         <Button x:Name="btnIniciarSesion" Style="{StaticResource PrimaryButton}" Click="BtnIniciarSesion_Click">Iniciar sesión</Button>
 
                         <StackPanel Orientation="Horizontal" HorizontalAlignment="Stretch" Margin="0,8,0,0">
                             <TextBlock Text="¿No tienes cuenta?" Foreground="#666" VerticalAlignment="Center"/>
-                            <Button Content="Registrarse" Background="Transparent" BorderThickness="0" Foreground="{StaticResource PurpleBrush}" Margin="8,0,0,0" Cursor="Hand"/>
+                            <Button x:Name="btnRegistrarse" Content="Registrarse" Background="Transparent" BorderThickness="0" Foreground="{StaticResource PurpleBrush}" Margin="8,0,0,0" Cursor="Hand" Click="BtnRegistrarse_Click"/>
                         </StackPanel>
 
-                        <TextBlock Text="¿Olvidaste tu contraseña?" Foreground="{StaticResource PurpleBrush}" FontSize="12" HorizontalAlignment="Left" Margin="0,12,0,0" Cursor="Hand"/>
+                        <!-- Ahora el TextBlock es interactivo: evento MouseLeftButtonUp -->
+                        <TextBlock x:Name="txtOlvidaste" Text="¿Olvidaste tu contraseña?" Foreground="{StaticResource PurpleBrush}" FontSize="12" HorizontalAlignment="Left" Margin="0,12,0,0" Cursor="Hand" MouseLeftButtonUp="TxtOlvidaste_MouseLeftButtonUp"/>
                     </StackPanel>
                 </Border>
             </Grid>
