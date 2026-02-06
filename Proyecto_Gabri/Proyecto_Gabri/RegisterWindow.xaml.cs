@@ -52,8 +52,21 @@ namespace Proyecto_Gabri
 
         private void BtnVolverIniciar_Click(object sender, RoutedEventArgs e)
         {
-            // Cierra la ventana de registro y vuelve a la principal
-            this.Close();
+            try
+            {
+                var MainWindow = new MainWindow()
+                {
+                    WindowStartupLocation = WindowStartupLocation.CenterScreen
+                };
+
+                MainWindow.Show();
+                Application.Current.MainWindow = MainWindow;
+                this.Close();
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show($"Error al abrir ventana de registro:\n{ex.Message}", "ERROR", MessageBoxButton.OK, MessageBoxImage.Error);
+            }
         }
 
         private static bool IsValidEmail(string email)
