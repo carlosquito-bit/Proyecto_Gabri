@@ -79,5 +79,25 @@ namespace Proyecto_Gabri
                 MessageBox.Show($"Error al abrir ventana de recuperación:\n{ex.Message}", "ERROR", MessageBoxButton.OK, MessageBoxImage.Error);
             }
         }
+
+        // Abre BookingWindow y cierra la MainWindow
+        private void BtnReservarHotel_Click(object sender, RoutedEventArgs e)
+        {
+            try
+            {
+                var bookingWindow = new BookingWindow()
+                {
+                    WindowStartupLocation = WindowStartupLocation.CenterScreen
+                };
+
+                bookingWindow.Show();
+                Application.Current.MainWindow = bookingWindow;
+                this.Close();
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show($"Error al abrir ventana de reservas:\n{ex.Message}", "ERROR", MessageBoxButton.OK, MessageBoxImage.Error);
+            }
+        }
     }
 }
