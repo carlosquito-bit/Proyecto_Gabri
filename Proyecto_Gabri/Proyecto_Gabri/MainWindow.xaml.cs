@@ -33,6 +33,10 @@ namespace Proyecto_Gabri
             if (usuario == "admin" && clave == "1234")
             {
                 MessageBox.Show("Autenticación correcta. Bienvenido.", "OK", MessageBoxButton.OK, MessageBoxImage.Information);
+                var principal = new PrincipalWindow();
+                principal.Show();
+                Application.Current.MainWindow = principal;
+                this.Close(); // opcional: cerrar la MainWindow
             }
             else
             {

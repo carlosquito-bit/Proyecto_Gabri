@@ -4,6 +4,25 @@
              xmlns:local="clr-namespace:Proyecto_Gabri"
              StartupUri="MainWindow.xaml">
     <Application.Resources>
-         
+        <!-- Aumentar el grosor de las fuentes en toda la aplicación -->
+        <Style TargetType="TextBlock">
+            <Setter Property="FontWeight" Value="ExtraBold"/>
+        </Style>
+
+        <Style TargetType="Button">
+            <Setter Property="FontWeight" Value="Bold"/>
+        </Style>
+
+        <Style TargetType="TextBox">
+            <Setter Property="FontWeight" Value="Bold"/>
+        </Style>
+
+        <Style TargetType="PasswordBox">
+            <Setter Property="FontWeight" Value="Bold"/>
+        </Style>
+
+        <Style TargetType="ComboBox">
+            <Setter Property="FontWeight" Value="Bold"/>
+        </Style>
     </Application.Resources>
 </Application>

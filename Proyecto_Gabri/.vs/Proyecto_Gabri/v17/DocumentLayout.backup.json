@@ -1,37 +1,49 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\emilio.peruga.herrer\\Desktop\\Proyecto_Gabri\\Proyecto_Gabri\\",
+  "WorkspaceRootPath": "C:\\Users\\carlos.quito_alumnoj\\Desktop\\Proyecto_Gabri\\Proyecto_Gabri\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{56642615-35AE-49B8-84BE-3F93C4E77ED9}|Proyecto_Gabri\\Proyecto_Gabri.csproj|c:\\users\\emilio.peruga.herrer\\desktop\\proyecto_gabri\\proyecto_gabri\\proyecto_gabri\\bookingwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{56642615-35AE-49B8-84BE-3F93C4E77ED9}|Proyecto_Gabri\\Proyecto_Gabri.csproj|solutionrelative:proyecto_gabri\\bookingwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{56642615-35AE-49B8-84BE-3F93C4E77ED9}|Proyecto_Gabri\\Proyecto_Gabri.csproj|c:\\users\\carlos.quito_alumnoj\\desktop\\proyecto_gabri\\proyecto_gabri\\proyecto_gabri\\principalwindow.xaml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{56642615-35AE-49B8-84BE-3F93C4E77ED9}|Proyecto_Gabri\\Proyecto_Gabri.csproj|solutionrelative:proyecto_gabri\\principalwindow.xaml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{56642615-35AE-49B8-84BE-3F93C4E77ED9}|Proyecto_Gabri\\Proyecto_Gabri.csproj|c:\\users\\emilio.peruga.herrer\\desktop\\proyecto_gabri\\proyecto_gabri\\proyecto_gabri\\bookingwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{56642615-35AE-49B8-84BE-3F93C4E77ED9}|Proyecto_Gabri\\Proyecto_Gabri.csproj|solutionrelative:proyecto_gabri\\bookingwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{56642615-35AE-49B8-84BE-3F93C4E77ED9}|Proyecto_Gabri\\Proyecto_Gabri.csproj|c:\\users\\emilio.peruga.herrer\\desktop\\proyecto_gabri\\proyecto_gabri\\proyecto_gabri\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{56642615-35AE-49B8-84BE-3F93C4E77ED9}|Proyecto_Gabri\\Proyecto_Gabri.csproj|solutionrelative:proyecto_gabri\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{56642615-35AE-49B8-84BE-3F93C4E77ED9}|Proyecto_Gabri\\Proyecto_Gabri.csproj|c:\\users\\emilio.peruga.herrer\\desktop\\proyecto_gabri\\proyecto_gabri\\proyecto_gabri\\registerwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{56642615-35AE-49B8-84BE-3F93C4E77ED9}|Proyecto_Gabri\\Proyecto_Gabri.csproj|solutionrelative:proyecto_gabri\\registerwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{56642615-35AE-49B8-84BE-3F93C4E77ED9}|Proyecto_Gabri\\Proyecto_Gabri.csproj|c:\\users\\emilio.peruga.herrer\\desktop\\proyecto_gabri\\proyecto_gabri\\proyecto_gabri\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "AbsoluteMoniker": "D:0:0:{56642615-35AE-49B8-84BE-3F93C4E77ED9}|Proyecto_Gabri\\Proyecto_Gabri.csproj|c:\\users\\carlos.quito_alumnoj\\desktop\\proyecto_gabri\\proyecto_gabri\\proyecto_gabri\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{56642615-35AE-49B8-84BE-3F93C4E77ED9}|Proyecto_Gabri\\Proyecto_Gabri.csproj|solutionrelative:proyecto_gabri\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{56642615-35AE-49B8-84BE-3F93C4E77ED9}|Proyecto_Gabri\\Proyecto_Gabri.csproj|c:\\users\\emilio.peruga.herrer\\desktop\\proyecto_gabri\\proyecto_gabri\\proyecto_gabri\\registerwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{56642615-35AE-49B8-84BE-3F93C4E77ED9}|Proyecto_Gabri\\Proyecto_Gabri.csproj|solutionrelative:proyecto_gabri\\registerwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{56642615-35AE-49B8-84BE-3F93C4E77ED9}|Proyecto_Gabri\\Proyecto_Gabri.csproj|c:\\users\\carlos.quito_alumnoj\\desktop\\proyecto_gabri\\proyecto_gabri\\proyecto_gabri\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{56642615-35AE-49B8-84BE-3F93C4E77ED9}|Proyecto_Gabri\\Proyecto_Gabri.csproj|solutionrelative:proyecto_gabri\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{56642615-35AE-49B8-84BE-3F93C4E77ED9}|Proyecto_Gabri\\Proyecto_Gabri.csproj|c:\\users\\emilio.peruga.herrer\\desktop\\proyecto_gabri\\proyecto_gabri\\proyecto_gabri\\forgotpasswordwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{56642615-35AE-49B8-84BE-3F93C4E77ED9}|Proyecto_Gabri\\Proyecto_Gabri.csproj|c:\\users\\carlos.quito_alumnoj\\desktop\\proyecto_gabri\\proyecto_gabri\\proyecto_gabri\\registerwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{56642615-35AE-49B8-84BE-3F93C4E77ED9}|Proyecto_Gabri\\Proyecto_Gabri.csproj|solutionrelative:proyecto_gabri\\registerwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{56642615-35AE-49B8-84BE-3F93C4E77ED9}|Proyecto_Gabri\\Proyecto_Gabri.csproj|c:\\users\\carlos.quito_alumnoj\\desktop\\proyecto_gabri\\proyecto_gabri\\proyecto_gabri\\bookingwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{56642615-35AE-49B8-84BE-3F93C4E77ED9}|Proyecto_Gabri\\Proyecto_Gabri.csproj|solutionrelative:proyecto_gabri\\bookingwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{56642615-35AE-49B8-84BE-3F93C4E77ED9}|Proyecto_Gabri\\Proyecto_Gabri.csproj|c:\\users\\carlos.quito_alumnoj\\desktop\\proyecto_gabri\\proyecto_gabri\\proyecto_gabri\\bookingwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{56642615-35AE-49B8-84BE-3F93C4E77ED9}|Proyecto_Gabri\\Proyecto_Gabri.csproj|solutionrelative:proyecto_gabri\\bookingwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{56642615-35AE-49B8-84BE-3F93C4E77ED9}|Proyecto_Gabri\\Proyecto_Gabri.csproj|c:\\users\\carlos.quito_alumnoj\\desktop\\proyecto_gabri\\proyecto_gabri\\proyecto_gabri\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{56642615-35AE-49B8-84BE-3F93C4E77ED9}|Proyecto_Gabri\\Proyecto_Gabri.csproj|solutionrelative:proyecto_gabri\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{56642615-35AE-49B8-84BE-3F93C4E77ED9}|Proyecto_Gabri\\Proyecto_Gabri.csproj|c:\\users\\carlos.quito_alumnoj\\desktop\\proyecto_gabri\\proyecto_gabri\\proyecto_gabri\\principalwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{56642615-35AE-49B8-84BE-3F93C4E77ED9}|Proyecto_Gabri\\Proyecto_Gabri.csproj|solutionrelative:proyecto_gabri\\principalwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{56642615-35AE-49B8-84BE-3F93C4E77ED9}|Proyecto_Gabri\\Proyecto_Gabri.csproj|c:\\users\\carlos.quito_alumnoj\\desktop\\proyecto_gabri\\proyecto_gabri\\proyecto_gabri\\forgotpasswordwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{56642615-35AE-49B8-84BE-3F93C4E77ED9}|Proyecto_Gabri\\Proyecto_Gabri.csproj|solutionrelative:proyecto_gabri\\forgotpasswordwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{56642615-35AE-49B8-84BE-3F93C4E77ED9}|Proyecto_Gabri\\Proyecto_Gabri.csproj|c:\\users\\emilio.peruga.herrer\\desktop\\proyecto_gabri\\proyecto_gabri\\proyecto_gabri\\forgotpasswordwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "AbsoluteMoniker": "D:0:0:{56642615-35AE-49B8-84BE-3F93C4E77ED9}|Proyecto_Gabri\\Proyecto_Gabri.csproj|c:\\users\\carlos.quito_alumnoj\\desktop\\proyecto_gabri\\proyecto_gabri\\proyecto_gabri\\registerwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{56642615-35AE-49B8-84BE-3F93C4E77ED9}|Proyecto_Gabri\\Proyecto_Gabri.csproj|solutionrelative:proyecto_gabri\\registerwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{56642615-35AE-49B8-84BE-3F93C4E77ED9}|Proyecto_Gabri\\Proyecto_Gabri.csproj|c:\\users\\carlos.quito_alumnoj\\desktop\\proyecto_gabri\\proyecto_gabri\\proyecto_gabri\\forgotpasswordwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{56642615-35AE-49B8-84BE-3F93C4E77ED9}|Proyecto_Gabri\\Proyecto_Gabri.csproj|solutionrelative:proyecto_gabri\\forgotpasswordwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     }
   ],
@@ -46,24 +58,62 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 7,
+              "Title": "PrincipalWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\carlos.quito_alumnoj\\Desktop\\Proyecto_Gabri\\Proyecto_Gabri\\Proyecto_Gabri\\PrincipalWindow.xaml.cs",
+              "RelativeDocumentMoniker": "Proyecto_Gabri\\PrincipalWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\carlos.quito_alumnoj\\Desktop\\Proyecto_Gabri\\Proyecto_Gabri\\Proyecto_Gabri\\PrincipalWindow.xaml.cs",
+              "RelativeToolTip": "Proyecto_Gabri\\PrincipalWindow.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-12T13:10:35.869Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "PrincipalWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\carlos.quito_alumnoj\\Desktop\\Proyecto_Gabri\\Proyecto_Gabri\\Proyecto_Gabri\\PrincipalWindow.xaml",
+              "RelativeDocumentMoniker": "Proyecto_Gabri\\PrincipalWindow.xaml",
+              "ToolTip": "C:\\Users\\carlos.quito_alumnoj\\Desktop\\Proyecto_Gabri\\Proyecto_Gabri\\Proyecto_Gabri\\PrincipalWindow.xaml",
+              "RelativeToolTip": "Proyecto_Gabri\\PrincipalWindow.xaml",
+              "ViewState": "AgIAAHMAAAAAAAAAAAAcwJQAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-02-12T13:10:30.724Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "App.xaml",
+              "DocumentMoniker": "C:\\Users\\carlos.quito_alumnoj\\Desktop\\Proyecto_Gabri\\Proyecto_Gabri\\Proyecto_Gabri\\App.xaml",
+              "RelativeDocumentMoniker": "Proyecto_Gabri\\App.xaml",
+              "ToolTip": "C:\\Users\\carlos.quito_alumnoj\\Desktop\\Proyecto_Gabri\\Proyecto_Gabri\\Proyecto_Gabri\\App.xaml",
+              "RelativeToolTip": "Proyecto_Gabri\\App.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-02-12T12:50:44.39Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "BookingWindow.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\emilio.peruga.herrer\\Desktop\\Proyecto_Gabri\\Proyecto_Gabri\\Proyecto_Gabri\\BookingWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\carlos.quito_alumnoj\\Desktop\\Proyecto_Gabri\\Proyecto_Gabri\\Proyecto_Gabri\\BookingWindow.xaml.cs",
               "RelativeDocumentMoniker": "Proyecto_Gabri\\BookingWindow.xaml.cs",
-              "ToolTip": "C:\\Users\\emilio.peruga.herrer\\Desktop\\Proyecto_Gabri\\Proyecto_Gabri\\Proyecto_Gabri\\BookingWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\carlos.quito_alumnoj\\Desktop\\Proyecto_Gabri\\Proyecto_Gabri\\Proyecto_Gabri\\BookingWindow.xaml.cs",
               "RelativeToolTip": "Proyecto_Gabri\\BookingWindow.xaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFkAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-02-12T07:27:36.416Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 5,
               "Title": "BookingWindow.xaml",
-              "DocumentMoniker": "C:\\Users\\emilio.peruga.herrer\\Desktop\\Proyecto_Gabri\\Proyecto_Gabri\\Proyecto_Gabri\\BookingWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\carlos.quito_alumnoj\\Desktop\\Proyecto_Gabri\\Proyecto_Gabri\\Proyecto_Gabri\\BookingWindow.xaml",
               "RelativeDocumentMoniker": "Proyecto_Gabri\\BookingWindow.xaml",
-              "ToolTip": "C:\\Users\\emilio.peruga.herrer\\Desktop\\Proyecto_Gabri\\Proyecto_Gabri\\Proyecto_Gabri\\BookingWindow.xaml",
+              "ToolTip": "C:\\Users\\carlos.quito_alumnoj\\Desktop\\Proyecto_Gabri\\Proyecto_Gabri\\Proyecto_Gabri\\BookingWindow.xaml",
               "RelativeToolTip": "Proyecto_Gabri\\BookingWindow.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2026-02-12T07:27:16.64Z",
@@ -71,34 +121,24 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 8,
               "Title": "ForgotPasswordWindow.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\emilio.peruga.herrer\\Desktop\\Proyecto_Gabri\\Proyecto_Gabri\\Proyecto_Gabri\\ForgotPasswordWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\carlos.quito_alumnoj\\Desktop\\Proyecto_Gabri\\Proyecto_Gabri\\Proyecto_Gabri\\ForgotPasswordWindow.xaml.cs",
               "RelativeDocumentMoniker": "Proyecto_Gabri\\ForgotPasswordWindow.xaml.cs",
-              "ToolTip": "C:\\Users\\emilio.peruga.herrer\\Desktop\\Proyecto_Gabri\\Proyecto_Gabri\\Proyecto_Gabri\\ForgotPasswordWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\carlos.quito_alumnoj\\Desktop\\Proyecto_Gabri\\Proyecto_Gabri\\Proyecto_Gabri\\ForgotPasswordWindow.xaml.cs",
               "RelativeToolTip": "Proyecto_Gabri\\ForgotPasswordWindow.xaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAANAAAAAAAAAA==",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABwAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-22T13:14:22.537Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "ForgotPasswordWindow.xaml",
-              "DocumentMoniker": "C:\\Users\\emilio.peruga.herrer\\Desktop\\Proyecto_Gabri\\Proyecto_Gabri\\Proyecto_Gabri\\ForgotPasswordWindow.xaml",
-              "RelativeDocumentMoniker": "Proyecto_Gabri\\ForgotPasswordWindow.xaml",
-              "ToolTip": "C:\\Users\\emilio.peruga.herrer\\Desktop\\Proyecto_Gabri\\Proyecto_Gabri\\Proyecto_Gabri\\ForgotPasswordWindow.xaml",
-              "RelativeToolTip": "Proyecto_Gabri\\ForgotPasswordWindow.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2026-01-22T13:13:15.705Z"
+              "WhenOpened": "2026-01-22T13:14:22.537Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
               "Title": "RegisterWindow.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\emilio.peruga.herrer\\Desktop\\Proyecto_Gabri\\Proyecto_Gabri\\Proyecto_Gabri\\RegisterWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\carlos.quito_alumnoj\\Desktop\\Proyecto_Gabri\\Proyecto_Gabri\\Proyecto_Gabri\\RegisterWindow.xaml.cs",
               "RelativeDocumentMoniker": "Proyecto_Gabri\\RegisterWindow.xaml.cs",
-              "ToolTip": "C:\\Users\\emilio.peruga.herrer\\Desktop\\Proyecto_Gabri\\Proyecto_Gabri\\Proyecto_Gabri\\RegisterWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\carlos.quito_alumnoj\\Desktop\\Proyecto_Gabri\\Proyecto_Gabri\\Proyecto_Gabri\\RegisterWindow.xaml.cs",
               "RelativeToolTip": "Proyecto_Gabri\\RegisterWindow.xaml.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAD4AAAA7AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -107,37 +147,51 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "RegisterWindow.xaml",
-              "DocumentMoniker": "C:\\Users\\emilio.peruga.herrer\\Desktop\\Proyecto_Gabri\\Proyecto_Gabri\\Proyecto_Gabri\\RegisterWindow.xaml",
-              "RelativeDocumentMoniker": "Proyecto_Gabri\\RegisterWindow.xaml",
-              "ToolTip": "C:\\Users\\emilio.peruga.herrer\\Desktop\\Proyecto_Gabri\\Proyecto_Gabri\\Proyecto_Gabri\\RegisterWindow.xaml",
-              "RelativeToolTip": "Proyecto_Gabri\\RegisterWindow.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2026-01-22T08:25:15.648Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "MainWindow.xaml",
-              "DocumentMoniker": "C:\\Users\\emilio.peruga.herrer\\Desktop\\Proyecto_Gabri\\Proyecto_Gabri\\Proyecto_Gabri\\MainWindow.xaml",
-              "RelativeDocumentMoniker": "Proyecto_Gabri\\MainWindow.xaml",
-              "ToolTip": "C:\\Users\\emilio.peruga.herrer\\Desktop\\Proyecto_Gabri\\Proyecto_Gabri\\Proyecto_Gabri\\MainWindow.xaml",
-              "RelativeToolTip": "Proyecto_Gabri\\MainWindow.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2026-01-20T09:35:32.63Z"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 2,
               "Title": "MainWindow.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\emilio.peruga.herrer\\Desktop\\Proyecto_Gabri\\Proyecto_Gabri\\Proyecto_Gabri\\MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\carlos.quito_alumnoj\\Desktop\\Proyecto_Gabri\\Proyecto_Gabri\\Proyecto_Gabri\\MainWindow.xaml.cs",
               "RelativeDocumentMoniker": "Proyecto_Gabri\\MainWindow.xaml.cs",
-              "ToolTip": "C:\\Users\\emilio.peruga.herrer\\Desktop\\Proyecto_Gabri\\Proyecto_Gabri\\Proyecto_Gabri\\MainWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\carlos.quito_alumnoj\\Desktop\\Proyecto_Gabri\\Proyecto_Gabri\\Proyecto_Gabri\\MainWindow.xaml.cs",
               "RelativeToolTip": "Proyecto_Gabri\\MainWindow.xaml.cs",
-              "ViewState": "AgIAADgAAAAAAAAAAAAowC0AAAAMAAAAAAAAAA==",
+              "ViewState": "AgIAADQAAAAAAAAAAAAAADEAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-01-20T09:35:29.735Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\carlos.quito_alumnoj\\Desktop\\Proyecto_Gabri\\Proyecto_Gabri\\Proyecto_Gabri\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "Proyecto_Gabri\\MainWindow.xaml",
+              "ToolTip": "C:\\Users\\carlos.quito_alumnoj\\Desktop\\Proyecto_Gabri\\Proyecto_Gabri\\Proyecto_Gabri\\MainWindow.xaml",
+              "RelativeToolTip": "Proyecto_Gabri\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-01-20T09:35:32.63Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "RegisterWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\carlos.quito_alumnoj\\Desktop\\Proyecto_Gabri\\Proyecto_Gabri\\Proyecto_Gabri\\RegisterWindow.xaml",
+              "RelativeDocumentMoniker": "Proyecto_Gabri\\RegisterWindow.xaml",
+              "ToolTip": "C:\\Users\\carlos.quito_alumnoj\\Desktop\\Proyecto_Gabri\\Proyecto_Gabri\\Proyecto_Gabri\\RegisterWindow.xaml",
+              "RelativeToolTip": "Proyecto_Gabri\\RegisterWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-01-22T08:25:15.648Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "ForgotPasswordWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\carlos.quito_alumnoj\\Desktop\\Proyecto_Gabri\\Proyecto_Gabri\\Proyecto_Gabri\\ForgotPasswordWindow.xaml",
+              "RelativeDocumentMoniker": "Proyecto_Gabri\\ForgotPasswordWindow.xaml",
+              "ToolTip": "C:\\Users\\carlos.quito_alumnoj\\Desktop\\Proyecto_Gabri\\Proyecto_Gabri\\Proyecto_Gabri\\ForgotPasswordWindow.xaml",
+              "RelativeToolTip": "Proyecto_Gabri\\ForgotPasswordWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-01-22T13:13:15.705Z",
               "EditorCaption": ""
             }
           ]
