@@ -100,3 +100,6 @@ C:\Users\carlos.quito_alumnoj\Desktop\Proyecto_Gabri\Proyecto_Gabri\Proyecto_Gab
 C:\Users\carlos.quito_alumnoj\Desktop\Proyecto_Gabri\Proyecto_Gabri\Proyecto_Gabri\obj\Debug\net8.0-windows\ref\Proyecto_Gabri.dll
 C:\Users\carlos.quito_alumnoj\Desktop\Proyecto_Gabri\Proyecto_Gabri\Proyecto_Gabri\obj\Debug\net8.0-windows\PrincipalWindow.baml
 C:\Users\carlos.quito_alumnoj\Desktop\Proyecto_Gabri\Proyecto_Gabri\Proyecto_Gabri\obj\Debug\net8.0-windows\PrincipalWindow.g.cs
+C:\Users\emilio.peruga.herrer\Desktop\Proyecto_Gabri\Proyecto_Gabri\Proyecto_Gabri\obj\Debug\net8.0-windows\PrincipalWindow.baml
+C:\Users\emilio.peruga.herrer\Desktop\Proyecto_Gabri\Proyecto_Gabri\Proyecto_Gabri\obj\Debug\net8.0-windows\PrincipalWindow.g.cs
+C:\Users\emilio.peruga.herrer\Desktop\Proyecto_Gabri\Proyecto_Gabri\Proyecto_Gabri\obj\Debug\net8.0-windows\App.baml

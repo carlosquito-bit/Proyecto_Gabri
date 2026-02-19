@@ -1,0 +1,41 @@
+﻿using System.Windows;
+
+namespace Proyecto_Gabri
+{
+    public partial class PrincipalWindow : Window
+    {
+        public PrincipalWindow()
+        {
+            InitializeComponent();
+        }
+
+        private void BtnLoginRegister_Click(object sender, RoutedEventArgs e)
+        {
+            try
+            {
+                var main = new MainWindow()
+                {
+                    WindowStartupLocation = WindowStartupLocation.CenterScreen
+                };
+                main.Show();
+                Application.Current.MainWindow = main;
+                this.Close();
+            }
+            catch (System.Exception ex)
+            {
+                MessageBox.Show($"Error al abrir la ventana de inicio:/registro:\n{ex.Message}", "ERROR", MessageBoxButton.OK, MessageBoxImage.Error);
+            }
+        }
+
+        private void BtnAcceptCookies_Click(object sender, RoutedEventArgs e)
+        {
+            // Simple behavior: hide the cookie bar when accepted. Persistencia puede añadirse más adelante.
+            CookieBar.Visibility = Visibility.Collapsed;
+        }
+
+        private void BtnCookiesInfo_Click(object sender, RoutedEventArgs e)
+        {
+            MessageBox.Show("Usamos cookies para personalizar contenido y analizar el tráfico. Puedes cambiar tus preferencias en la configuración.", "Información sobre cookies", MessageBoxButton.OK, MessageBoxImage.Information);
+        }
+    }
+}

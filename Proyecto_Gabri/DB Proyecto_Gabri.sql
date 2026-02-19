@@ -102,8 +102,8 @@ CREATE TABLE auditoria (
     tabla VARCHAR(100) NOT NULL,
     id_registro INT NOT NULL,
     accion ENUM('INSERT', 'UPDATE', 'DELETE') NOT NULL,
-    datos_anteriores JSON,
-    datos_nuevos JSON,
+    datos_anteriores bool,
+    datos_nuevos bool,
     usuario VARCHAR(100),
     fecha_cambio TIMESTAMP DEFAULT CURRENT_TIMESTAMP
 );

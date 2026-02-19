@@ -8,23 +8,23 @@
     "net8.0-windows7.0": []
   },
   "packageFolders": {
-    "C:\\Users\\carlos.quito_alumnoj\\.nuget\\packages\\": {},
+    "C:\\Users\\emilio.peruga.herrer\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\carlos.quito_alumnoj\\Desktop\\Proyecto_Gabri\\Proyecto_Gabri\\Proyecto_Gabri\\Proyecto_Gabri.csproj",
+      "projectUniqueName": "C:\\Users\\emilio.peruga.herrer\\Desktop\\Proyecto_Gabri\\Proyecto_Gabri\\Proyecto_Gabri\\Proyecto_Gabri.csproj",
       "projectName": "Proyecto_Gabri",
-      "projectPath": "C:\\Users\\carlos.quito_alumnoj\\Desktop\\Proyecto_Gabri\\Proyecto_Gabri\\Proyecto_Gabri\\Proyecto_Gabri.csproj",
-      "packagesPath": "C:\\Users\\carlos.quito_alumnoj\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\carlos.quito_alumnoj\\Desktop\\Proyecto_Gabri\\Proyecto_Gabri\\Proyecto_Gabri\\obj\\",
+      "projectPath": "C:\\Users\\emilio.peruga.herrer\\Desktop\\Proyecto_Gabri\\Proyecto_Gabri\\Proyecto_Gabri\\Proyecto_Gabri.csproj",
+      "packagesPath": "C:\\Users\\emilio.peruga.herrer\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\emilio.peruga.herrer\\Desktop\\Proyecto_Gabri\\Proyecto_Gabri\\Proyecto_Gabri\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\carlos.quito_alumnoj\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\emilio.peruga.herrer\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
