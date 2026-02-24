@@ -54,7 +54,7 @@
                     <TextBlock Text="GONHP" VerticalAlignment="Center" FontSize="18" FontWeight="Bold" Foreground="{StaticResource PurpleBrush}"/>
 
                     <StackPanel Orientation="Horizontal" Grid.Column="1" VerticalAlignment="Center" HorizontalAlignment="Right">
-                        <Button Content="Inicio de sesion / Registrarse" Style="{StaticResource PrimaryButton}" Click="BtnLoginRegister_Click" Margin="0,0,8,0"/>
+                        <Button x:Name="btnLoginRegister" Content="Inicio de sesion / Registrarse" Style="{StaticResource PrimaryButton}" Click="BtnLoginRegister_Click" Margin="0,0,8,0"/>
                         <Button Content="Menu" Background="Transparent" BorderThickness="0" Foreground="{StaticResource PurpleBrush}"/>
                     </StackPanel>
                 </Grid>

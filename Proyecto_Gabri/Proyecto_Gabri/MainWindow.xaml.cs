@@ -33,7 +33,8 @@ namespace Proyecto_Gabri
             if (usuario == "admin" && clave == "1234")
             {
                 MessageBox.Show("Autenticación correcta. Bienvenido.", "OK", MessageBoxButton.OK, MessageBoxImage.Information);
-                var principal = new PrincipalWindow();
+                // Pass authenticated flag so PrincipalWindow updates the button to "Mi Perfil"
+                var principal = new PrincipalWindow(true);
                 principal.Show();
                 Application.Current.MainWindow = principal;
                 this.Close(); // opcional: cerrar la MainWindow

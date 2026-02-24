@@ -1,0 +1,190 @@
+﻿<Window x:Class="Proyecto_Gabri.PrincipalWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Principal" Height="700" Width="1100"
+        Background="White" WindowStartupLocation="CenterScreen">
+    <Window.Resources>
+        <SolidColorBrush x:Key="PurpleBrush" Color="#6A4BCF"/>
+        <SolidColorBrush x:Key="PurpleDarkBrush" Color="#5839B2"/>
+        <SolidColorBrush x:Key="CardBackground" Color="#FFFFFFFF"/>
+        <DropShadowEffect x:Key="CardDropShadow" Color="#000000" BlurRadius="12" ShadowDepth="4" Opacity="0.15"/>
+
+        <Style x:Key="PrimaryButton" TargetType="Button">
+            <Setter Property="Background" Value="{StaticResource PurpleBrush}"/>
+            <Setter Property="Foreground" Value="White"/>
+            <Setter Property="Padding" Value="10,6"/>
+            <Setter Property="FontWeight" Value="SemiBold"/>
+            <Setter Property="BorderThickness" Value="0"/>
+            <Setter Property="Cursor" Value="Hand"/>
+            <Setter Property="Margin" Value="0,10,0,0"/>
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="Button">
+                        <Border Background="{TemplateBinding Background}" CornerRadius="6">
+                            <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center" Margin="12,4"/>
+                        </Border>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+
+        <Style x:Key="CardTitle" TargetType="TextBlock">
+            <Setter Property="FontSize" Value="16"/>
+            <Setter Property="FontWeight" Value="Bold"/>
+            <Setter Property="Margin" Value="0,12,0,6"/>
+        </Style>
+
+        <Style x:Key="MutedText" TargetType="TextBlock">
+            <Setter Property="FontSize" Value="13"/>
+            <Setter Property="Foreground" Value="#666"/>
+        </Style>
+    </Window.Resources>
+
+    <!-- Use a Grid so we can show an overlay popup on top of the main content -->
+    <Grid>
+        <DockPanel>
+            <!-- Top bar -->
+            <Border Background="White" DockPanel.Dock="Top" Padding="12" BorderBrush="#F0F0F0" BorderThickness="0,0,0,1">
+                <Grid>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition/>
+                        <ColumnDefinition Width="Auto"/>
+                    </Grid.ColumnDefinitions>
+
+                    <TextBlock Text="GONHP" VerticalAlignment="Center" FontSize="18" FontWeight="Bold" Foreground="{StaticResource PurpleBrush}"/>
+
+                    <StackPanel Orientation="Horizontal" Grid.Column="1" VerticalAlignment="Center" HorizontalAlignment="Right">
+                        <Button Content="Inicio de sesion / Registrarse" Style="{StaticResource PrimaryButton}" Click="BtnLoginRegister_Click" Margin="0,0,8,0"/>
+                        <Button Content="Menu" Background="Transparent" BorderThickness="0" Foreground="{StaticResource PurpleBrush}"/>
+                    </StackPanel>
+                </Grid>
+            </Border>
+
+            <!-- Content -->
+            <ScrollViewer VerticalScrollBarVisibility="Auto">
+                <StackPanel Margin="32">
+                    <!-- Hero -->
+                    <Grid Margin="0,16,0,24">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="3*"/>
+                            <ColumnDefinition Width="2*"/>
+                        </Grid.ColumnDefinitions>
+
+                        <StackPanel Grid.Column="0" VerticalAlignment="Center">
+                            <TextBlock Text="Ahorra hasta un 40% en tu proxima estancia" FontSize="28" FontWeight="Bold" Foreground="#222" TextWrapping="Wrap"/>
+                            <TextBlock Text="Comparamos precios de hotel de cientos de webs" Style="{StaticResource MutedText}" Margin="0,8,0,18"/>
+
+                            <!-- Search box mimic -->
+                            <Border Background="White" CornerRadius="10" Padding="12" Effect="{StaticResource CardDropShadow}" Width="520">
+                                <Grid>
+                                    <Grid.ColumnDefinitions>
+                                        <ColumnDefinition Width="2*"/>
+                                        <ColumnDefinition Width="1*"/>
+                                        <ColumnDefinition Width="1*"/>
+                                        <ColumnDefinition Width="Auto"/>
+                                    </Grid.ColumnDefinitions>
+
+                                    <StackPanel Grid.Column="0">
+                                        <TextBlock Text="Destino" FontWeight="Bold" FontSize="12"/>
+                                        <TextBox />
+                                    </StackPanel>
+
+                                    <StackPanel Grid.Column="1">
+                                        <TextBlock Text="Entrada/salida" FontWeight="Bold" FontSize="12"/>
+                                        <TextBlock Text="Elige las fechas" Style="{StaticResource MutedText}" VerticalAlignment="Center"/>
+                                    </StackPanel>
+
+                                    <StackPanel Grid.Column="2">
+                                        <TextBlock Text="Huespedes" FontWeight="Bold" FontSize="12"/>
+                                        <TextBlock Text="2 huespedes, 1 habitacion" Style="{StaticResource MutedText}"/>
+                                    </StackPanel>
+
+                                    <Button Grid.Column="3" Content="Buscar" Width="96" Height="40" Margin="8,4,0,0" Style="{StaticResource PrimaryButton}"/>
+                                </Grid>
+                            </Border>
+                        </StackPanel>
+
+                        <!-- Right side: partner logos or illustration -->
+                        <StackPanel Grid.Column="1" HorizontalAlignment="Center" VerticalAlignment="Center">
+                            <Rectangle Width="220" Height="140" Fill="{StaticResource CardBackground}" Stroke="#EEE" RadiusX="8" RadiusY="8"/>
+                        </StackPanel>
+                    </Grid>
+
+                    <!-- Features row -->
+                    <UniformGrid Columns="3" Margin="0,12,0,24">
+                        <Border Background="{StaticResource CardBackground}" CornerRadius="8" Padding="18" Effect="{StaticResource CardDropShadow}" Margin="8">
+                            <StackPanel HorizontalAlignment="Center">
+                                <Ellipse Width="64" Height="64" Fill="{StaticResource PurpleBrush}"/>
+                                <TextBlock Text="Busca con facilidad" Style="{StaticResource CardTitle}" HorizontalAlignment="Center"/>
+                                <TextBlock Text="Busca entre millones de hoteles facilmente en segundos." Style="{StaticResource MutedText}" TextAlignment="Center"/>
+                            </StackPanel>
+                        </Border>
+
+                        <Border Background="{StaticResource CardBackground}" CornerRadius="8" Padding="18" Effect="{StaticResource CardDropShadow}" Margin="8">
+                            <StackPanel HorizontalAlignment="Center">
+                                <Ellipse Width="64" Height="64" Fill="{StaticResource PurpleBrush}"/>
+                                <TextBlock Text="Compara con seguridad" Style="{StaticResource CardTitle}" HorizontalAlignment="Center"/>
+                                <TextBlock Text="Compara precios de hoteles de cientos de webs a la vez." Style="{StaticResource MutedText}" TextAlignment="Center"/>
+                            </StackPanel>
+                        </Border>
+
+                        <Border Background="{StaticResource CardBackground}" CornerRadius="8" Padding="18" Effect="{StaticResource CardDropShadow}" Margin="8">
+                            <StackPanel HorizontalAlignment="Center">
+                                <Ellipse Width="64" Height="64" Fill="{StaticResource PurpleBrush}"/>
+                                <TextBlock Text="Ahorra a lo grande" Style="{StaticResource CardTitle}" HorizontalAlignment="Center"/>
+                                <TextBlock Text="Descubre grandes ofertas y reserva en las webs de nuestros colaboradores." Style="{StaticResource MutedText}" TextAlignment="Center"/>
+                            </StackPanel>
+                        </Border>
+                    </UniformGrid>
+
+                    <!-- Offers placeholder -->
+                    <TextBlock Text="Ofertas de hotel alucinantes" FontSize="18" FontWeight="Bold" Margin="8,8,0,12"/>
+                    <WrapPanel ItemHeight="140" ItemWidth="320" Margin="-8">
+                        <Border Width="320" Height="140" Background="{StaticResource CardBackground}" CornerRadius="8" Margin="8" Effect="{StaticResource CardDropShadow}"/>
+                        <Border Width="320" Height="140" Background="{StaticResource CardBackground}" CornerRadius="8" Margin="8" Effect="{StaticResource CardDropShadow}"/>
+                        <Border Width="320" Height="140" Background="{StaticResource CardBackground}" CornerRadius="8" Margin="8" Effect="{StaticResource CardDropShadow}"/>
+                    </WrapPanel>
+
+                </StackPanel>
+            </ScrollViewer>
+
+            <!-- Keep the bottom cookie bar hidden to avoid duplication with the popup -->
+            <Border x:Name="CookieBar" DockPanel.Dock="Bottom" Background="#FFF8F4EA" Padding="12" BorderBrush="#EFE6DD" BorderThickness="1,0,0,0" Visibility="Collapsed">
+                <Grid>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition />
+                        <ColumnDefinition Width="Auto" />
+                    </Grid.ColumnDefinitions>
+
+                    <TextBlock VerticalAlignment="Center" Foreground="#333" TextWrapping="Wrap">
+                        Usamos cookies propias y de terceros para mejorar tu experiencia y analizar el tráfico. Al continuar aceptas su uso.
+                    </TextBlock>
+
+                    <StackPanel Grid.Column="1" Orientation="Horizontal" HorizontalAlignment="Right" VerticalAlignment="Center" Margin="8,0,0,0">
+                        <Button Content="Más info" Background="Transparent" BorderThickness="0" Foreground="{StaticResource PurpleBrush}" Click="BtnCookiesInfo_Click"/>
+                        <Button Content="Aceptar" Width="96" Height="36" Margin="8,0,0,0" Style="{StaticResource PrimaryButton}" Click="BtnAcceptCookies_Click"/>
+                    </StackPanel>
+                </Grid>
+            </Border>
+
+        </DockPanel>
+
+        <!-- Overlay popup that appears on startup -->
+        <Grid x:Name="CookiePopupOverlay" Background="#80000000" Visibility="Visible">
+            <Border Width="560" Padding="20" CornerRadius="8" Background="White" HorizontalAlignment="Center" VerticalAlignment="Center" Effect="{StaticResource CardDropShadow}">
+                <StackPanel>
+                    <TextBlock Text="Usamos cookies" FontSize="18" FontWeight="Bold" Margin="0,0,0,8" Foreground="#222"/>
+                    <TextBlock TextWrapping="Wrap" Style="{StaticResource MutedText}">
+                        Usamos cookies propias y de terceros para mejorar tu experiencia en el sitio, mostrar contenido personalizado y analizar nuestro tráfico. Puedes aceptar para continuar o consultar más información.
+                    </TextBlock>
+
+                    <StackPanel Orientation="Horizontal" HorizontalAlignment="Right" Margin="0,16,0,0">
+                        <Button Content="Más info" Background="Transparent" BorderThickness="0" Foreground="{StaticResource PurpleBrush}" Click="BtnCookiesInfo_Click"/>
+                        <Button Content="Aceptar" Width="96" Height="36" Margin="8,0,0,0" Style="{StaticResource PrimaryButton}" Click="BtnAcceptCookies_Click"/>
+                    </StackPanel>
+                </StackPanel>
+            </Border>
+        </Grid>
+
+    </Grid>
+</Window>

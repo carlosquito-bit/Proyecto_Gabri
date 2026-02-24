@@ -1,0 +1,57 @@
+﻿using System.Windows;
+
+namespace Proyecto_Gabri
+{
+    public partial class ProfileWindow : Window
+    {
+        public ProfileWindow()
+        {
+            InitializeComponent();
+        }
+
+        private void BtnSaveProfile_Click(object sender, RoutedEventArgs e)
+        {
+            MessageBox.Show("Perfil guardado.", "OK", MessageBoxButton.OK, MessageBoxImage.Information);
+        }
+
+        private void BtnUpdatePassword_Click(object sender, RoutedEventArgs e)
+        {
+            if (pwdNew.Password != pwdConfirm.Password)
+            {
+                MessageBox.Show("Las contraseñas no coinciden.", "Error", MessageBoxButton.OK, MessageBoxImage.Warning);
+                return;
+            }
+
+            if (string.IsNullOrEmpty(pwdNew.Password))
+            {
+                MessageBox.Show("Introduce la nueva contraseña.", "Error", MessageBoxButton.OK, MessageBoxImage.Warning);
+                return;
+            }
+
+            MessageBox.Show("Contraseña actualizada.", "OK", MessageBoxButton.OK, MessageBoxImage.Information);
+            pwdNew.Clear();
+            pwdConfirm.Clear();
+        }
+
+        private void ThemeRadio_Checked(object sender, RoutedEventArgs e)
+        {
+            // placeholder for theme changes
+            // you can implement real theme switching here
+        }
+
+        private void ToggleNotifications_Checked(object sender, RoutedEventArgs e)
+        {
+            MessageBox.Show("Notificaciones activadas.", "Información", MessageBoxButton.OK, MessageBoxImage.Information);
+        }
+
+        private void ToggleNotifications_Unchecked(object sender, RoutedEventArgs e)
+        {
+            MessageBox.Show("Notificaciones desactivadas.", "Información", MessageBoxButton.OK, MessageBoxImage.Information);
+        }
+
+        private void BtnClose_Click(object sender, RoutedEventArgs e)
+        {
+            this.Close();
+        }
+    }
+}

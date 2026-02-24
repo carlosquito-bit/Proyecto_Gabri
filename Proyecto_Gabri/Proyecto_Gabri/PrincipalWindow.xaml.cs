@@ -4,15 +4,50 @@ namespace Proyecto_Gabri
 {
     public partial class PrincipalWindow : Window
     {
+        private bool _isAuthenticated = false;
+
         public PrincipalWindow()
         {
             InitializeComponent();
+        }
+
+        // New ctor to indicate whether the user is authenticated
+        public PrincipalWindow(bool isAuthenticated) : this()
+        {
+            _isAuthenticated = isAuthenticated;
+            UpdateLoginButtonState();
+        }
+
+        private void UpdateLoginButtonState()
+        {
+            try
+            {
+                if (_isAuthenticated && btnLoginRegister != null)
+                {
+                    btnLoginRegister.Content = "Mi Perfil";
+                }
+            }
+            catch
+            {
+                // ignore
+            }
         }
 
         private void BtnLoginRegister_Click(object sender, RoutedEventArgs e)
         {
             try
             {
+                // If the user is authenticated, open the Profile window
+                if (_isAuthenticated)
+                {
+                    var profile = new ProfileWindow()
+                    {
+                        WindowStartupLocation = WindowStartupLocation.CenterScreen
+                    };
+                    profile.ShowDialog();
+                    return;
+                }
+
                 var main = new MainWindow()
                 {
                     WindowStartupLocation = WindowStartupLocation.CenterScreen
@@ -23,7 +58,8 @@ namespace Proyecto_Gabri
             }
             catch (System.Exception ex)
             {
-                MessageBox.Show($"Error al abrir la ventana de inicio:/registro:\n{ex.Message}", "ERROR", MessageBoxButton.OK, MessageBoxImage.Error);
+                // Show full exception details to help debugging
+                MessageBox.Show($"Error al abrir la ventana de inicio/registro:\n{ex.ToString()}", "ERROR", MessageBoxButton.OK, MessageBoxImage.Error);
             }
         }
 
